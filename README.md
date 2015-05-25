@@ -4,6 +4,28 @@ This small tool is mainly a helper for me not to have to look up the license tex
 
 The license template is pre-filled with the current year and the user information extracted from your `~/.gitconfig` file.
 
+## Usage
+
+```bash
+# license help
+license is a tool to quickly put your code under a license
+
+Usage:
+  license [command]
+
+Available Commands:
+  list        Lists all available licenses
+  show        Prints the pre-filled license template to your terminal
+  write       Write the pre-filled license template to ./LICENSE
+  help        Help about any command
+
+Flags:
+  -h, --help=false: help for license
+
+
+Use "license help [command]" for more information about a command.
+```
+
 ## Currently included licenses
 
 - [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)

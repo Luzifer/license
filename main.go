@@ -10,6 +10,10 @@ import (
 	"github.com/spf13/cobra"
 )
 
+const (
+	version = "1.0.0"
+)
+
 var (
 	licenses = map[string]license{}
 )
@@ -51,9 +55,12 @@ func main() {
 		Short: "license is a tool to quickly put your code under a license",
 	}
 
-	app.AddCommand(getCmdList())
-	app.AddCommand(getCmdShow())
-	app.AddCommand(getCmdWrite())
+	app.AddCommand(
+		getCmdList(),
+		getCmdShow(),
+		getCmdWrite(),
+		getCmdVersion(),
+	)
 
 	app.Execute()
 }

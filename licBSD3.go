@@ -2,7 +2,9 @@ package main
 
 func init() {
 	addLicense("bsd3", license{
+		Name:        "BSD 3-Clause",
 		Description: "BSD 3-Clause License",
+		URL:         "http://opensource.org/licenses/BSD-3-Clause",
 		Template: `Copyright (c) {{ .Year }}, {{ .Author }}
 All rights reserved.
 

@@ -21,6 +21,8 @@ var (
 type license struct {
 	Description string
 	Template    string
+	URL         string
+	Name        string
 }
 
 func addLicense(name string, l license) {
@@ -60,6 +62,7 @@ func main() {
 		getCmdShow(),
 		getCmdWrite(),
 		getCmdVersion(),
+		getCmdBadge(),
 	)
 
 	app.Execute()

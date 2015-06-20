@@ -2,7 +2,9 @@ package main
 
 func init() {
 	addLicense("gpl3", license{
+		Name:        "GPL v3.0",
 		Description: "The GNU General Public License v3.0",
+		URL:         "http://www.gnu.org/licenses/gpl-3.0.en.html",
 		Template: `Copyright (C) {{ .Year }} {{ .Author }}
 
 This program is free software: you can redistribute it and/or modify

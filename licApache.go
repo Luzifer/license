@@ -2,7 +2,9 @@ package main
 
 func init() {
 	addLicense("apache", license{
+		Name:        "Apache v2.0",
 		Description: "Apache License, Version 2.0",
+		URL:         "http://www.apache.org/licenses/LICENSE-2.0",
 		Template: `Copyright {{ .Year }} {{ .Author }}
 
 Licensed under the Apache License, Version 2.0 (the "License");

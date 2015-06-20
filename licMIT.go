@@ -2,7 +2,9 @@ package main
 
 func init() {
 	addLicense("mit", license{
+		Name:        "MIT",
 		Description: "MIT License",
+		URL:         "http://opensource.org/licenses/mit-license.html",
 		Template: `The MIT License (MIT)
 
 Copyright (c) {{ .Year }} {{ .Author }}

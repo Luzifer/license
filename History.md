@@ -1,4 +1,10 @@
 
+n.n.n / 2015-06-21
+==================
+
+  * Refreshed README with new command and license
+  * Fixed help displaying wrong text for version command
+
 1.1.0 / 2015-06-20
 ==================
 

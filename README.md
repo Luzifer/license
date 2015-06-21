@@ -17,6 +17,8 @@ Available Commands:
   list        Lists all available licenses
   show        Prints the pre-filled license template to your terminal
   write       Write the pre-filled license template to ./LICENSE
+  version     prints the current version of license
+  badge       Gives you a markdown sniplet to show the license in your README.md
   help        Help about any command
 
 Flags:
@@ -33,6 +35,7 @@ Use "license help [command]" for more information about a command.
 - [BSD 3-Clause](http://opensource.org/licenses/BSD-3-Clause)
 - [GPLv3](http://www.gnu.org/licenses/gpl-3.0.en.html)
 - [MIT](http://opensource.org/licenses/mit-license.html)
+- [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Adding more licenses
 

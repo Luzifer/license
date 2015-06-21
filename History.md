@@ -1,5 +1,10 @@
 
-n.n.n / 2015-06-21
+1.1.2 / 2015-06-21
+==================
+
+  * Add version dynamically while build
+
+1.1.1 / 2015-06-21
 ==================
 
   * Refreshed README with new command and license
